@@ -41,3 +41,8 @@ features = [
     "fast-rng",          # Use a faster (but still sufficiently random) RNG
     "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
 ]
+[[bin]]
+name = "solana-verify"
+path = "src/main.rs"
+[lib]
+path = "src/lib.rs"
